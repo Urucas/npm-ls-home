@@ -1,7 +1,7 @@
 # npm-ls-home
 
 > Open the npm page of the package(or subpackages) in the current directory
-Based on [sindresorhus](https://github.com/sindresorhus/npm-home) [npm-home](https://github.com/sindresorhus/npm-home)
+Based on [@sindresorhus - npm-home](https://github.com/sindresorhus/npm-home)
 
 ## Install
 
