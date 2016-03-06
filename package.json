@@ -1,0 +1,52 @@
+{
+  "name": "npm-ls-home",
+  "version": "1.0.0",
+  "description": "Open the npm page of the package(or subpackages) in the current directory",
+  "license": "MIT",
+  "repository": "https://github.com/Urucas/npm-ls-home",
+  "author": {
+    "name": "Bruno Alassia",
+    "email": "hello@urucas.com",
+    "url": "https://github.com/Urucas/npm-ls-home"
+  },
+  "bin": {
+    "npm-ls-home": "cli.js",
+    "nlh": "cli.js"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "start" : "node cli.js"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "npm",
+    "package",
+    "pkg",
+    "page",
+    "home",
+    "open",
+    "cwd",
+    "current",
+    "directory",
+    "ls",
+    "list"
+  ],
+  "dependencies": {
+    "inquirer": "^0.11.3",
+    "meow": "^3.7.0",
+    "opn": "^3.0.3",
+    "read-pkg-up": "^1.0.1"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.2.2",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
