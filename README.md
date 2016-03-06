@@ -14,12 +14,17 @@ $ npm install --global npm-ls-home
 
 ```
 $ npm-ls-home --help
-
-  Usage
-    $ npm-ls-home
-    $ nlh
+$ npm-ls-home -l
+$ ? Choice a package (Use arrow keys)
+❯ npm-ls-home
+  inquirer
+  meow
+  opn
+  read-pkg-up
+  ava
+  execa
+  xo
 ```
-
 
 ## Related
 
