@@ -14,6 +14,15 @@ $ npm install --global npm-ls-home
 
 ```
 $ npm-ls-home --help
+$ 
+  Open the npm page of the package(or subpackages) in the current directory
+
+  Usage
+    $ npm-ls-home
+    $ nlh
+  Options
+    -l, -list Show package dependencies
+    
 $ npm-ls-home -l
 $ ? Choice a package (Use arrow keys)
 ❯ npm-ls-home
